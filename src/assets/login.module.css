@@ -1,0 +1,40 @@
+.formContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.registrationBtn {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.navBar {}
+
+.loginUser {
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.loginPass {
+    margin: 15px 0px;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.linkStyle {
+    color: blue;
+    text-decoration: underline;
+}
+
+.firstname {
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}

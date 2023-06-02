@@ -1,0 +1,259 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    background: white;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 3px 0px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px 10px 5px 5px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 10px 1px rgba(179, 179, 181, 1);
+    position: relative;
+}
+
+.noteCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.container {
+    height: 427px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 550px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.editBtn {
+    border: navajowhite;
+    background: transparent;
+}
+
+.deleteBtn {
+    border: navajowhite;
+    background: transparent;
+}
+
+.titleNote {
+    font-weight: bold;
+    /* border: 1px solid gray;
+    border-radius: 10px 10px 0px 0px; */
+    padding: 0px 10px;
+}
+
+.descNote {
+    padding: 0px 10px;
+    width: 90%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.Btns {
+    display: flex;
+    justify-content: end;
+    display: none;
+}
+
+.card:hover {
+    border: 1px solid;
+}
+
+/* .card:hover .Btns {
+    display: block;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 22px;
+    right: 10px;
+} */
+.Btns {
+    display: block;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 24px;
+    right: 10px;
+}
+
+.noteContent {}
+
+.form {
+    max-width: 300px;
+    width: 100%;
+    margin: 15px 0px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.UpdateForm {}
+
+.titleInput {
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.descInput {
+    padding: 8px 16px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.add {
+    width: 112%;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: white;
+    background: #AF7EEB;
+    border: none;
+}
+
+.plusBtn {
+    font-size: 35px;
+    padding: 3px 12px;
+    background: #AF7EEB;
+    border-radius: 100%;
+    padding-top: 0px;
+    color: white;
+    position: absolute;
+    top: 400px;
+    z-index: 1;
+    right: 524px;
+    cursor: pointer;
+}
+
+.updateInput {
+    border: none;
+    padding: 8px 0px;
+}
+
+
+
+.descInput {
+    padding: 8px 16px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.updateBtn {
+    background-color: white;
+    border: 1px solid;
+    margin-right: 5px;
+}
+
+.cancelBtn {
+    background-color: white;
+    border: 1px solid;
+}
+
+.takeNoteContent {
+    position: relative;
+    box-shadow: 1px 4px 22px 2px rgb(179 179 181);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.NewForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainInput {
+    position: relative;
+    width: 96%;
+}
+
+.takeNote {
+    width: 100%;
+    padding: 10px 8px;
+    margin: 11px -10px;
+}
+
+.descInputNew {
+    width: 96%;
+    padding: 10px 8px;
+    margin: 10px;
+}
+
+.svg {
+    height: 30px;
+    width: 26px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.addNew {
+    background: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card:hover .tick {
+    display: block;
+}
+
+.tick {
+    position: absolute;
+    top: 17px;
+    right: 14px;
+    transform: scale(1.2);
+    accent-color: grey;
+    /* padding: 1px 3px;
+    background: black;
+    border-radius: 23px;
+    display: none; */
+}
+
+.ticked {
+    width: 14px;
+    height: 12px;
+    fill: white;
+}
+
+.checked {
+    text-decoration-line: line-through;
+    padding: 0px 10px;
+    color: gray;
+}
+
+.navBar {
+    max-width: 326px;
+    width: 100%;
+}
+
+.navHead {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 10px;
+    background: #AF5EEB;
+    color: white;
+    cursor: pointer;
+}
